@@ -14,8 +14,6 @@ int main(int argc, char * argv[]) {
 	Matrix<MatSet> SetMatrixA(3,3), SetMatrixC;
 	Matrix <string> StringMatrixA(3, 3), StringMatrixC;
 
-	cout << "Now the matrix A of complex numbers will be introduced \n";
-	/*cin >> SetMatrixA;*/
 	SetMatrixA.rand_value();
 	cout << endl << SetMatrixA;
 
